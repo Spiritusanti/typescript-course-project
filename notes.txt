@@ -1,0 +1,9 @@
+Notes from Typescript course
+Core Types:
+
+Number --> 1, 2.3, -6, etc... - no differentiation between integers or floats
+string --> 'hi', `hi`, "hi" - all text values 
+boolean --> true/false - just these two - no 'truthy' or "falsy"
+
+The key difference is: Javascript uses 'dynamic types' (resolved at runtime), Typescript uses 'static types' (set during development).
+--> Typescript only provides this support during development
