@@ -1,9 +1,14 @@
 Notes from Typescript course
 Core Types:
 
-Number --> 1, 2.3, -6, etc... - no differentiation between integers or floats
+number --> 1, 2.3, -6, etc... - no differentiation between integers or floats
 string --> 'hi', `hi`, "hi" - all text values 
 boolean --> true/false - just these two - no 'truthy' or "falsy"
+object --> {age: 30} - any Javascript object, more specific types (type of object) are possible
+array --> [1,2,3] - any Javascript array, type can be flexible or strict (regarding the element types)
+tuples --> [1, 2] - added by Typescript: fixed length array
 
 The key difference is: Javascript uses 'dynamic types' (resolved at runtime), Typescript uses 'static types' (set during development).
 --> Typescript only provides this support during development
+
+
